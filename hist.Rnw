@@ -1,0 +1,11 @@
+\documentclass{article}
+
+\begin{document}
+What did you expect?
+
+<<>>=
+hist(rnorm(100000), col=rainbow(40))
+@
+
+
+\end{document}
